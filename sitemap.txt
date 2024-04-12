@@ -1,2 +1,2 @@
-https://github.com/wamfengqiu/wamfengqiu.github.io.git/2024/04/13/hello-world/
-https://github.com/wamfengqiu/wamfengqiu.github.io.git
+https://wamfengqiu.github.io/project/2024/04/13/hello-world/
+https://wamfengqiu.github.io/project

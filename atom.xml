@@ -3,11 +3,11 @@
   <title>Hexo</title>
   
   
-  <link href="https://github.com/wamfengqiu/wamfengqiu.github.io.git/atom.xml" rel="self"/>
+  <link href="https://wamfengqiu.github.io/project/atom.xml" rel="self"/>
   
-  <link href="https://github.com/wamfengqiu/wamfengqiu.github.io.git/"/>
+  <link href="https://wamfengqiu.github.io/project/"/>
   <updated>2024-04-12T17:57:26.699Z</updated>
-  <id>https://github.com/wamfengqiu/wamfengqiu.github.io.git/</id>
+  <id>https://wamfengqiu.github.io/project/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://github.com/wamfengqiu/wamfengqiu.github.io.git/2024/04/13/hello-world/"/>
-    <id>https://github.com/wamfengqiu/wamfengqiu.github.io.git/2024/04/13/hello-world/</id>
+    <link href="https://wamfengqiu.github.io/project/2024/04/13/hello-world/"/>
+    <id>https://wamfengqiu.github.io/project/2024/04/13/hello-world/</id>
     <published>2024-04-12T17:57:45.818Z</published>
     <updated>2024-04-12T17:57:26.699Z</updated>
     
