@@ -42,6 +42,7 @@
 
 <link rel="stylesheet" href="/wanfengqiu.github.io/css/main.css" />
 
+    
 <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/wanfengqiu.github.io/atom.xml" title="枫の小世界" type="application/atom+xml">
 </head>
 <body>
@@ -49,7 +50,7 @@
         <transition name="fade">
             <div id="loading" v-show="loading">
                 <div id="loading-circle">
-                    <h2>LOADING</h2>
+                    <h2>请稍等</h2>
                     <p>时间的海洋尚在流动</p>
                     <img src="/wanfengqiu.github.io/images/loading.gif" />
                 </div>
@@ -179,7 +180,7 @@
             
             <span class="tag">
                 
-                <a href="/wanfengqiu.github.io/tags/%E6%97%A5%E8%AE%B0/" style="color: #03a9f4">日记</a>
+                <a href="/wanfengqiu.github.io/tags/%E6%97%A5%E8%AE%B0/" style="color: #ffa2c4">日记</a>
             </span>
             
         </span>
@@ -192,7 +193,7 @@
 <p>啧</p>
 <h1 id="然后"><a href="#然后" class="headerlink" title="然后"></a>然后</h1><p>就，快要高考了，该怎么办？怎么办？好吧，我不晓得，挺难绷的，自律，然后努力，然后，没了。真的没了，不然还能怎么办?</p>
 <h1 id="接着"><a href="#接着" class="headerlink" title="接着"></a>接着</h1><p>我发现昂，知道的越多，会的越多，反而知道的越少，知道世界很大的人，然后意识到，现在所处的世界真的很小，有好多好多我不会的东西，有好多好多我想做的事情，就，啧。</p>
-<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>这里一个很久不会写东西了，切记保持初心，初心尚在，方能有所成就，方能心有所居。</p>
+<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>这里应该很久不会写东西了，切记保持初心，初心尚在，方能有所成就，方能心有所居。</p>
 <pre><code>写自晚枫。                                                                晚枫~秋 2024/4/22
 </code></pre>
 
@@ -200,6 +201,10 @@
     
     
     
+    
+    <div id="comment">
+        <div id="giscus-container" class="giscus"></div>
+    </div>
     
     
     
@@ -236,6 +241,23 @@
     <script src="/wanfengqiu.github.io/js/main.js"></script>
     
     
+<script
+    src="https://giscus.app/client.js"
+    data-repo="wamfengqiu/wanfengqiu.github.io"
+    data-repo-id="R_kgDOLuGkqg"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOLuGkqs4Cfe_j"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="zh-CN"
+    crossorigin
+    async
+></script>
+
 
 
 
@@ -243,5 +265,11 @@
     
 </body>
 </html>
-<link rel="stylesheet" href="/css/cursor.min.css" />
-<script src="/js/cursor.min.js"></script>
+    <canvas id="fireworks" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 32767"></canvas>
+    <script src="https://cdn.staticfile.org/animejs/3.2.1/anime.min.js"></script>
+    <script src="/js/fireworks.min.js"></script>
+    <canvas id="background" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: -1"></canvas>
+    <script src="/js/background.min.js"></script>
+    <div id="cursor"></div>
+    <link rel="stylesheet" href="/css/cursor.min.css">
+    <script src="/js/cursor.min.js"></script>
